@@ -32,6 +32,7 @@ gem 'jbuilder', '~> 2.5'
 
 group :development, :test do
   gem 'annotate'
+  gem 'i18n_generators'
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platform: :mri
 end
@@ -47,3 +48,5 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+gem 'bootstrap','~> 4.5.0'
+gem 'http_accept_language'

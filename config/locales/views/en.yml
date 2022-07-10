@@ -1,0 +1,7 @@
+en:
+  posts:
+    index:
+      add_new: Add new
+      confirm: Sure to delete?
+      delete: Delete
+      edit: Edit
