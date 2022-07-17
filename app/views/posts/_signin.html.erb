@@ -1,0 +1,10 @@
+<% if session[:user_id] %>
+    <%= linl_to 'サインアウト', posts_path, class: 'btn btn-sm btm-primary' %>
+    <%= linl_to 'サインアップ', posts_path, class: 'btn btn-sm btm-secondary' %>
+<% else %>
+    <% if User.all.any? %>
+    <%= linl_to 'サインアウト', posts_path, class: 'btn btn-sm btm-primary' %>
+    <% else %>
+    <%= linl_to 'サインアップ', posts_path, class: 'btn btn-sm btm-secondary' %>
+    <% end %>
+<% end %>
