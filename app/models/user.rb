@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # == Schema Information
 #
 # Table name: users
@@ -11,8 +10,6 @@
 #  created_at      :datetime         not null
 #  updated_at      :datetime         not null
 #
-=======
->>>>>>> refs/remotes/origin/main
 class User < ApplicationRecord
     validates :signin_name, presence: true, uniqueness: true, length: { in: 4..12}
     validates :display_name, presence: true
