@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # == Schema Information
 #
 # Table name: users
@@ -10,6 +11,8 @@
 #  created_at      :datetime         not null
 #  updated_at      :datetime         not null
 #
+=======
+>>>>>>> refs/remotes/origin/main
 require 'test_helper'
 
 class UserTest < ActiveSupport::TestCase
