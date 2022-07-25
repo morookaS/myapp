@@ -1,6 +1,6 @@
 <% if session[:user_id] %>
     <div class='d-flex justify-content-end mb-2'>
-        <%= 'ここにdisplay_nameを指すものを記述' %>
+        <%= User.find_by(session[:user_id]).display_name %>
         <%= link_to t('.signout'),
         session_path(session[:user_id]),
         method: :delete,
